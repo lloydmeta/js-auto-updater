@@ -17,9 +17,7 @@ Usage
 Include this library (and jQuery if you're not using it yet for some reason), then:
 
 ```javascript
-
 $(ClientAutoUpdater.setMonitor());
-
 ```
 
 Or really just `ClientAutoUpdater.setMonitor();` wherever you initialise (e.g. in baseRouter for Backbone JS apps)
